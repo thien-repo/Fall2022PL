@@ -1,0 +1,125 @@
+[Reviewed 09/08/22 05:21 AM CEST]
+synopsis: you're done
+
+details: 
+
+yay
+
+------------------------------------------------------------------------------
+[Reviewed 09/07/22 06:43 AM CEST]
+synopsis: let's expand or contract
+
+details: 
+
+"It has been tested that dynamic could be at least 18 times slower than static typing in C#"
+
+Please state how this is relevant to the question, how we are going to make use of this information. Furthermore, please mention this impact for each of the other languages provided as an example in this section.
+
+If this discussion is not relevant, then instead of expanding, contract and remove this part.
+
+------------------------------------------------------------------------------
+[Reviewed 09/07/22 06:03 AM CEST]
+synopsis: how much is the expense, let us clarify
+
+details: 
+
+"The extra code generated will slow down the program compared 
+    to compile time type checking." By how much does it slow down? How is that relevant to the question at hand? How are we going to make use of these details being presented in the context of the question at hand.
+
+Please see my review on 09/06/22
+		
+------------------------------------------------------------------------------
+[Reviewed 09/06/22 06:37 AM CEST]
+synopsis: let's dig into how expensive it is
+
+details: 
+
+3.
+
+"It's expensive because the compiler has to generate code to check the type of the variable at run time. With static typing, the compiler can generate code that is more efficient for the specific type of the variable. " How expensive is this? Can we nail this down here?
+
+4.
+
+Good
+
+------------------------------------------------------------------------------
+[Reviewed 09/06/22 06:05 AM CEST]
+
+***Please spellcheck***
+
+1.
+
+Good
+
+3.
+
+"it is expensive because we lose the perks that compile time checking gives us.  " What are the expenses? (consider if this a useful discussion here)
+
+"Compile time checking has an advatange in that the program doesn't not need to figure out 
+        objects type is and if it is possible to perfrom the task it was given." The program never figures out types. It is the compiler that does that.
+				
+"By by-passing that the dynamic type must perform more operations to first figure out if the task is even possbile before doing it at run time." That is the job of the runtime and it has to do that even if there was type checking at compile time.
+
+We are dragging in discussions that are not necessary and by doing so getting stuck with errors in facts. Instead we can focus on the main question: examples of languages that has both typing and we can support the response by telling how they support it.
+
+4.
+
+please spellcheck.
+
+"For example, the "auto" keyword specifies that the type of the variable" Is this a universal feature or keyword in programming? If so state that, otherwise, please mention the context where this is used.
+
+------------------------------------------------------------------------------
+[Reviewed 09/05/22 06:36 AM CEST]
+synopsis: let's revisit a few parts
+
+details: 
+
+1.
+
+"variable is known at compile-time" Simply known or verified as well?
+
+2.
+
+Good
+
+3.
+
+"it is expensive because we lose the perks that compile time checking gives us" How is that expensive? What is the expense? If this is really expensive then why have that feature?
+
+Please spellcheck.
+
+4.
+
+"A statically-typed language verifies the type of variables and objects at compile time. However, it does not need to be for it work because of type inference" - it does not need to be for it work - what does that mean? There is something you have in mind, but that was not put into words. So these sentences do not make sense. Please rework to make sure what we are thinking is actually typed in to the words.
+
+Please make this section a lot shorter to convey the idea.
+
+------------------------------------------------------------------------------
+[Reviewed 09/04/22 16:04 PM CEST]
+synopsis: let's expand
+
+details: 
+
+1.
+
+What makes a language statically typed?
+
+2.
+
+What makes a language dynamically typed?
+
+3.
+
+Good example of C#.
+
+"although this is expensive" In what way?
+
+"Javascript, it is a super set of Typescript thus it supports dynamic and static typing" How so?
+
+Any other languages?
+
+4.
+
+We want to see one collective argument, not disjoint arguments from each person.
+
+------------------------------------------------------------------------------
