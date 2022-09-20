@@ -1,29 +1,3 @@
-[Reviewed 09/20/22 06:11 AM MDT]
-synopsis: let's write in short paragraphs
-
-details: 
-
-Let's write in short paragraphs for each question, where each paragraph focuses on one single thought or idea.
-
-Please avoid bullet lists.
-
-Please spellcheck.
-
-------------------------------------------------------------------------------
-[Reviewed 09/19/22 09:25 AM MDT]
-synopsis: good work so far
-
-details: 
-
-Good work so far.
-
-Go:
-
-done
-
-Let's focus on the questions in assign1.txt.
-
-------------------------------------------------------------------------------
 [Reviewed 09/19/22 04:26 AM MDT]
 synopsis~: let's clean up a bit
 
@@ -225,6 +199,6 @@ The team has selected these languages (may be changed later if the team desires)
 
 ✓Java
 ✓Python
-✓Go
+~Go
 
 ------------------------------------------------------------------------------
