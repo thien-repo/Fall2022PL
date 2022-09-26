@@ -50,26 +50,6 @@ After completing the coding (and only after that), answer the following question
     Go was not a language we were familiar with. We were impressed with the type inference system. The type inference made the syntax very concise and easy to read. Though there were a couple things we didn't like about Go, like how it doesn't have built-in test functionality. We had to create our own asserts for testing. We didn't like that Go has little to no support for the functional style, we had to install a functional library to make it work. However, the act of installing the library was very straightforward and easy to do. This was pleasantly surprising. GO has the same problem as python where you have to start with the test which could lead to confusion if you forget.
 
     
-
-Total[100]: 100
-
-Language 1 [30]: 
-build file and tests [5]:
-imperative style [5]:
-functional style with no mutation [10]:
-code quality [10]:
-
-Language 1 [30]: 
-build file and tests [5]:
-imperative style [5]:
-functional style with no mutation [10]:
-code quality [10]:
-
-Language 1 [30]: 
-build file and tests [5]:
-imperative style [5]:
-functional style with no mutation [10]:
-code quality [10]:
-
-Response to questions [10]:
+Grading postponed, waiting for respond from pham
+for https://groups.google.com/g/uhcsf22pl/c/A324AIo163M/m/AieMJ5B0AgAJ
 

@@ -1,0 +1,30 @@
+[Reviewed 09/25/22 23:35 PM EDT]
+synopsis: the result should be a series and not a single value
+
+details: 
+
+The result of the function call should not be a single value, but a series of values.
+
+------------------------------------------------------------------------------
+[Reviewed 09/25/22 07:23 AM EDT]
+synopsis~: let's avoid mutation
+
+details: 
+
+Please see suggestions in code.
+
+Let's do a quick review after these changes. Please modify the requestReview.txt file and check it in as soon as you are ready and I will do a review well before the next scheduled review cycle.
+
+------------------------------------------------------------------------------
+[Reviewed 09/23/22 22:23 PM EDT]
+synopsis: language choices
+
+details: 
+
+The team has selected these languages (may be changed later if the team desires):
+
+-Scala
+--->F#
+-Lisp
+
+------------------------------------------------------------------------------

@@ -1,0 +1,29 @@
+module FibonacciTest
+
+open NUnit.Framework
+
+[<SetUp>]
+let Setup () =
+    ()
+
+[<Test>]
+let Canary () =
+    Assert.Pass()
+    
+[<Test>]
+let FibonaciiImperativeTest () =
+    let TestCases =  [| 
+        (1, 1); 
+        (2, 1); 
+        (3, 2); 
+        (4, 3); 
+        (5, 5); 
+        (6, 8); 
+        (7, 13); 
+        (8, 21); 
+        (9, 34); 
+        (10, 55) 
+        |]
+    for (input, expected) in TestCases do
+        let actual = Fibonacci.FibonaciiImperative input
+        Assert.AreEqual(expected, actual)

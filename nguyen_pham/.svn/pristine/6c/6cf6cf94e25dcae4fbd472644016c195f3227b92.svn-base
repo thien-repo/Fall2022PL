@@ -1,0 +1,11 @@
+﻿module Fibonacci
+
+let FibonaciiImperative number =
+    let mutable prev = 1
+    let mutable curr = 1
+        for i in 3..number do
+            let temp = curr
+            curr <- prev + curr
+            prev <- temp
+        curr
+    
