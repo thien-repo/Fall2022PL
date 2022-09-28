@@ -16,14 +16,11 @@ let rec FibbinaciiRecursive number =
       let previous = FibbinaciiRecursive (number - 1)
       previous @ [previous.[previous.Length - 1] + previous.[previous.Length - 2]]
 
-let rec FibbinaciiRecursiveIterative number = 
-    let rec FibonacciMapper previous current num =
-      if num = 0 then
+let FibbinaciiRecursiveIterative number = 
+    let rec FibonacciMapper previous current number =
+      if number = 0 then
           previous
       else
-          FibonacciMapper current (previous + current) (num - 1) 
-          
-    if number < 0 then
-      []
-    else 
-      FibbinaciiRecursiveIterative (number - 1) @ [FibonacciMapper 1 1 number]
+          FibonacciMapper current (previous + current) (number - 1) 
+
+    [0 .. number] |> List.map ( fun num -> FibonacciMapper 1 1 num)

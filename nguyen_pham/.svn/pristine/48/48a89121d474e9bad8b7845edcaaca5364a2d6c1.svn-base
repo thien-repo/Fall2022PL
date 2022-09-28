@@ -30,14 +30,14 @@ let TestSetForFibonaccii fibonacci =
 
 [<Test>]
 let FibonaciiIterativeTest () =
-    TestSetForFibonaccii Fibonacci.FibbinaciiIterative
+    TestSetForFibonaccii Fibonacci.Iterative
 
 [<Test>]
 let FibonacciRecursiveTest () =
-    TestSetForFibonaccii Fibonacci.FibbinaciiRecursive
+    TestSetForFibonaccii Fibonacci.Recursive
 
 [<Test>]
 let FibonacciRecursiveIterativeTest () =
-    TestSetForFibonaccii Fibonacci.FibbinaciiRecursiveIterative
+    TestSetForFibonaccii Fibonacci.RecursiveIterative
 
  
