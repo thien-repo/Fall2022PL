@@ -1,0 +1,88 @@
+HW3: Due 11:59PM CT December 2
+
+***Please review the top part of ../hw1/hw1.txt***
+***Your chance of success greatly increases if you start very early. Your chance of failure increases if you start late. Please use as many reviews as you possibly can.***
+
+1. What's the difference between polymorphism and multi-methods?
+
+ Polymorphism is a concept in object-oriented programming in which a call to a method may cause a different implementation to be executed depending on the target object's type.
+
+ In other words, polymorphism is the provision of a single interface to entities of different types, or the use of a single symbol to represent multiple different types.
+
+ 
+ Multi-methods are a form of polymorphism based on multiple objects, the target and the arguments of the method call. The method call is dispatched to the implementation that matches the types of the target and the arguments.
+
+
+
+2. In a language of your choice show a small example of a REPL session illustrating the difference between the two. Copy and paste the REPL session below in this file.
+
+Polymorphism 
+
+jshell>   public class Employee{
+   ...>     public void raise(Number amount){ 
+   ...>       System.out.println("Employee got a raise");
+   ...>     }
+   ...>   }
+   ...> 
+   ...>   public class Executive extends Employee{
+   ...> 
+   ...>     public void raise(Number amount){
+   ...>       System.out.println("Executive got a raise");
+   ...>     }
+   ...> 
+   ...>     public void raise(BigDecimal amount){
+   ...>       System.out.println("Executive got an outlandish raise");
+   ...>     }
+   ...>   }
+   ...> 
+   ...>   public static void giveRaise(Employee employee){
+   ...>     employee.raise(new BigDecimal(1000));
+   ...>   }
+|  created class Employee
+|  created class Executive
+|  created method giveRaise(Employee)
+
+
+The raise method in Employee is polymorphic thus at runtime the method invoked depends not on the target reference’s type, but rather on the type of the referenced object. However the method called at runtime has to take Number as a parameter because that’s what Employee— the base—has defined. So, the compiler treats the instance of BigDecimal as Number.
+
+
+Multi-methods
+groovy:000>   public class Employee{
+groovy:001>     public void raise(Number amount){
+groovy:002>       System.out.println("Employee got a raise");
+groovy:003>     }
+groovy:004>   };
+===> true
+groovy:000> 
+groovy:000>   public class Executive extends Employee{
+groovy:001> 
+groovy:001>     public void raise(Number amount){
+groovy:002>       System.out.println("Executive got a raise");
+groovy:003>     }
+groovy:004> 
+groovy:004>     public void raise(BigDecimal amount){
+groovy:005>       System.out.println("Executive got an outlandish raise");
+groovy:006>     }
+groovy:007>   };
+===> true
+groovy:000> 
+groovy:000>   public static void giveRaise(Employee employee){
+groovy:001>     employee.raise(new BigDecimal(1000));
+groovy:002>   }
+===> true
+groovy:000>     giveRaise(new Employee())
+Employee got a raise
+===> null
+groovy:000>     giveRaise(new Executive())
+Executive got an outlandish raise
+===> null
+
+Here we have the same Java code but now running in Groovy.
+
+When the Employee raise method is called in Groovy it firsts checks if Employee has raise method that takes in a BigDecimal 
+if not it then checks if Executive has raise method that takes in a BigDecimal. It found one and used that method.
+
+Groovy does support multi-methods. It smartly picks the based not only on the target object’s type but also on the type of the argument. So, the method called at runtime is the one that takes BigDecimal as a parameter. 
+
+
+Total[10]: 10

@@ -1,0 +1,11 @@
+[Iteration] Given a positive number greater than 0 (assume the number is a positive integer greater than 0, no need to do error checking), create a function that returns a series of factorials for values 1, 2, ..., up to n. For example, given 3, the result is 1, 2, 6. Given 5, the result is 1, 2, 6, 24, 120.
+
+Use one of the languages you used for assignment 1, implement the function for a given n, using iteration (not recursion and not tail recursion). Also, avoid mutating any state/variables to achieve this solution.
+
+Save the code into a file with the proper extension. Provide a simple build file that will compile (if necessary) and run the code for sample values of n 1, 4, 7, and 10. Do not include any unit tests.
+
+we used Java
+
+Total [10]: -2
+More complex and verbose than necessary.
+We should pick better variable names.

@@ -1,0 +1,18 @@
+Here's a functional style code (consider it is written in a hypothetical language and has no syntax or compilation errors):
+
+var numbers = list(1, 2, 3, 4, 5, 6)
+var result = list()
+
+numbers.filter(number -> number % 2 == 0)
+  .map(number -> number * 2)
+  .forEach(number -> result.add(number))
+  
+Are there any issues with this code and if so what are those?
+
+Yes there is a problem, the forEach creates a side effect, that adds number to result, an outside variable
+
+Also the forEach is redundant, since we can just assign 
+result to numbers.filter.map instead of using forEach 
+
+Total [10]: -1
+The proposed solution may not work to get the same results in all languages and thus is a wrong focus. We need to focus on the issues with mutability and move forward from there.

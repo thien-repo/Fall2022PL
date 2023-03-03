@@ -1,0 +1,193 @@
+[Reviewed 11/12/22 21:24 PM EST]
+synopsis: you're done
+
+details: 
+
+yay
+
+------------------------------------------------------------------------------
+[Reviewed 11/12/22 17:19 PM EST]
+synopsis: not sure why?
+
+details: 
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 11/12/22 13:55 PM MST]
+synopsis: nice work so far
+
+details: 
+
+Nice work so far. A minor change. Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 11/12/22 06:04 AM MST]
+synopsis: nice work so far
+
+details: 
+
+JavaScript:
+
+done
+
+C#:
+
+Let's proceed to write tests for isCorrectGuess (done), evaluateGuess, and the first test for guess.
+
+------------------------------------------------------------------------------
+[Reviewed 11/11/22 19:39 PM MST]
+synopsis: good work
+
+details: 
+
+Good work. Please see suggestions in files.
+
+Let's get started on the next language.
+
+------------------------------------------------------------------------------
+[Reviewed 11/11/22 06:24 AM MST]
+synopsis: Nice work
+
+details: 
+
+Nice work.
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 11/10/22 15:50 PM MST]
+synopsis: let us not use recursion
+
+details: 
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 11/10/22 08:44 AM MST]
+synopsis: let us avoid mutation
+
+details: 
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 11/10/22 08:12 AM MST]
+synopsis: a few things to improve
+
+details: 
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 11/10/22 05:38 AM MST]
+synopsis~: let's take tne next step
+
+details: 
+
+Please see suggestions in files.
+
+Let's do a quick review after these changes. Please modify the requestReview.txt file and check it in as soon as you are ready and I will do a review well before the next scheduled review cycle.
+
+------------------------------------------------------------------------------
+[Reviewed 11/09/22 12:47 PM MST]
+synopsis: code should match expectation of the test
+
+details: 
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 11/09/22 10:33 AM MST]
+synopsis~: let's reduce code and focus on one test
+
+details: 
+
+Please see suggestions in files.
+
+Let's do a quick review after these changes. Please modify the requestReview.txt file and check it in as soon as you are ready and I will do a review well before the next scheduled review cycle.
+
+------------------------------------------------------------------------------
+[Reviewed 11/09/22 04:41 AM MST]
+synopsis~: let's change direction
+
+details: 
+
+Please see suggestions in files.
+
+Let's do a quick review after these changes. Please modify the requestReview.txt file and check it in as soon as you are ready and I will do a review well before the next scheduled review cycle.
+
+------------------------------------------------------------------------------
+[Reviewed 11/08/22 08:21 AM MST]
+synopsis~: let's take the next step
+
+details: 
+
+Good so far. Let's take the next step.
+
+------------------------------------------------------------------------------
+[Reviewed 11/07/22 10:08 AM CST]
+synopsis: let's change directions
+
+details: 
+
+Please see suggestions in files.
+
+Next tests:
+
+Please adjust the details to fit the syntax and semantics of the language being used.
+-evaluate_guess takes target 20, guess 20, attempts 0 and returns (equal, 1) where 1 is the number of attempts so far
+-evaluate_guess takes target 20, guess 20, attempts 3 and returns (equal, 4)
+-evaluate_guess takes target 20, guess 10, attempts 1 and returns (lower, 2)
+-evaluate_guess takes target 20, guess 40, attempts 2 and returns (higher, 3)
+
+------------------------------------------------------------------------------
+[Reviewed 11/07/22 05:58 AM CST]
+synopsis~: one step at a time
+
+details: 
+
+Please see suggestions in files.
+
+Let's do a quick review after these changes. Please modify the requestReview.txt file and check it in as soon as you are ready and I will do a review well before the next scheduled review cycle.
+
+------------------------------------------------------------------------------
+[Reviewed 11/06/22 07:42 AM CST]
+synopsis: Good so far
+
+details: 
+
+Good so far. Please see suggestions in files.
+
+Let's take the next step.
+
+------------------------------------------------------------------------------
+[Reviewed 11/06/22 06:03 AM CST]
+synopsis~: nice work so far
+
+details: 
+
+Nice work so far. Let's tweak it a bit.
+
+Let's do a quick review after these changes. Please modify the requestReview.txt file and check it in as soon as you are ready and I will do a review well before the next scheduled review cycle.
+
+------------------------------------------------------------------------------
+[Reviewed 11/05/22 05:07 AM CDT]
+synopsis: let's refocus
+
+details: 
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 11/04/22 11:04 AM CDT]
+synopsis: language choices
+
+details: 
+
+The team has selected these languages (may be changed later if the team desires):
+
+✓JavaScript
+✓C#
+
+------------------------------------------------------------------------------

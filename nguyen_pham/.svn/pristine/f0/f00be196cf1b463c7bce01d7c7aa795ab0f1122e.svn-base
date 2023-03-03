@@ -1,0 +1,78 @@
+HW2: Due 11:59PM CT October 14
+
+***Please review the top part of ../hw1/hw1.txt***
+***Your chance of success greatly increases if you start very early. Your chance of failure increases if you start late. Please use as many reviews as you possibly can.***
+
+In the questions below, assume a variable is immutable unless it is annotated with the word mutable. For example,
+
+let var1 = 10
+let mutable var2 = 4
+
+var1 can't be changed, var2 may be changed.
+
+Also, assume that all variables are passed by value, unless prefixed with a ref. That is, for example,
+
+aFunction(param1, ref param2) {
+  param1 = 15
+  param2 = 42
+}            
+
+let mutable var3 = 4
+let mutable var4 = 4
+aFunction(var3, var4)
+  
+var3 did not change, a copy of it was sent to aFunction. On the other hand, var4 is now 42 after the call.
+
+Given the above details, answer these questions.
+
+1. What is a pure function?
+ A pure function returns the same value for the same input, and it has no side effects because there is no mutation of local static variables, non-local variables, mutable reference arguments, or input/output stream. 
+
+2. What are the reasons that functional programming emphasizes that functions be pure?
+  Pure functions are easier to reason about and test. They guarantee that the output of a function is only dependent on the input and not on any other state.
+  This makes it easier to write tests and debugging becomes simple because you can easily isolate the problem to a single function.
+
+  Since they don't have side-effects, they are also easier to parallelize. It's easier to write a program that can be run on multiple cores/threads because you don't have to worry about the order of execution of the functions. Since the output of a function is only dependent on the input, and not on any other state, you can run the functions in any order and still get the same result. 
+
+  Another reason is that it allows for functions to be lazily evaluated. This means that the function is not evaluated until it is needed. Without function purity, the result would depend on the order of execution of the functions. Lazy evaluation will become unpredictable if the functions are not pure.
+  
+3. Is the following a pure function? Give reasons for your answer.
+
+someFunction(input1, input2) {
+  return input1 + input2
+}
+
+Yes, the function above is pure because for the same input it will always return the same output.
+
+4. Is the following a pure function? Give reasons for your answer.
+
+someFunction(input1, input2) {
+  let mutable result = input1
+  result = result + input2
+  return result
+}
+
+Yes, the function above is pure because for the same input it will always return the same output. Although the function has a mutable variable, the variable is a local copy of the input and is not changed. The function only changes the local copy of the input and not the input itself. Since no outside variables are changed, and the function returns the same output for the same input, it is a pure function.
+
+5. Is the following a pure function? Give reasons for your answer.
+
+someFunction(ref input1, ref input2) {
+  input2 = input1 + input2
+  return input2
+}
+
+No, the function above is not pure because it has side-effects. The function changes the value of the input2 variable. Since the function changes the value of the input2 variable, it is not a pure function.
+
+6. Is the following a pure function? Give reasons for your answer.
+
+someFunction(ref input1, ref input2) {
+  return input1 + input2
+}
+
+No, the function brings side effects because mutable variables. 
+
+When threading is used, the function may be called by multiple threads at the same time. Another thread may change the value of the input1 variable while the function is running. It will be difficult to predict the output of the function because the value of the input1 variable may change while the function is running.
+
+This issue is also present when lazily evaluated. Lazy evaluation also relies on functions not dependent on order of execution. If another function changes the value of the input1 variable while the function is running, the output of the function will again be unpredictable. 
+
+Total [10]: 10

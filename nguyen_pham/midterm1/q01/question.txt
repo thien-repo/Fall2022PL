@@ -1,0 +1,11 @@
+A developer shows you a line of valid code:
+
+var max = 100
+
+Does this line of code belong to a statically typed language or a dynamically typed language? How can you tell? Discuss.
+
+We can't tell without more context as multiple paradigms can use this syntax.
+
+For example in javascript, a dynamically typed language, this is a deprecated way of declaring a variable. 
+In scala (a statically typed language) this is a valid way of declaring a mutable variable. 
+

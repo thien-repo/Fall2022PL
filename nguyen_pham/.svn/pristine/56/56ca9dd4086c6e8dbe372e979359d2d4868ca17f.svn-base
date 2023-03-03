@@ -1,0 +1,11 @@
+What is a REPL? Discuss some benefits of REPL. Show a samle session (copy and paste) of using the REPL for a language of your choice.
+
+Read-Evaluate-Print Loop (REPL) started with Lisp Interpretive Environment, but several languages now support it. 
+
+Some benefit of REPL is that it's easy to evaluate expressions, helps to learn a language and it helps to experiment and build code.
+
+python
+>>> number = 8 + 9
+>>> print(number)
+17
+

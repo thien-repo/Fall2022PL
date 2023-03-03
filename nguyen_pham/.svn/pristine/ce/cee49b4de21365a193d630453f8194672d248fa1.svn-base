@@ -1,0 +1,85 @@
+[Reviewed 10/13/22 12:35 PM CEST]
+synopsis: you're done
+
+details: 
+
+yay
+
+------------------------------------------------------------------------------
+[Reviewed 10/12/22 18:01 PM CEST]
+synopsis: let's expand into 6
+
+details: 
+
+6.
+
+"We are safe to parallelize this function because the output is only dependent on the input and not on any other state." Let's continue further on this, discuss what happens when one thread calls this function and another threads modifies the variables passed as a parameter.
+
+"Lazy evaluation is also possible because the function is pure. We do not have to worry about the referenced variables being changeded by other functions." Let's continue further about this to tell us why we don't have to worry about that?
+
+------------------------------------------------------------------------------
+[Reviewed 10/11/22 21:34 PM CEST]
+synopsis: let's dig into 6
+
+details: 
+
+2.
+
+Good
+
+5.
+
+Good
+
+6.
+
+Let's tie this to each of the characteristics from part 2.
+
+------------------------------------------------------------------------------
+[Reviewed 10/10/22 19:49 PM CEST]
+synopsis: let's add to 2 and move forward
+
+details: 
+
+1.
+
+Good
+
+2.
+
+Good point about testing and parallelization.
+
+There is another important characteristics that should be mentioned in a third paragraph.
+
+3.
+
+Good
+
+4.
+
+Good
+
+------------------------------------------------------------------------------
+[Reviewed 10/09/22 09:40 AM CEST]
+synopsis: good details so far
+
+details: 
+
+
+1.
+
+Let's expand a bit more. What do we expect such functions to do and not do.
+
+2.
+
+Please spellcheck.
+
+Let's split into short paragraphs.
+
+First paragraph, good details on testing.
+
+Second paragraph, let's expand into the other good point about parallelization.
+
+Third paragraph, one more aspect...
+
+------------------------------------------------------------------------------

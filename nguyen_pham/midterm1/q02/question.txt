@@ -1,0 +1,18 @@
+All dynamically typed languages are not weakly typed but all weakly typed languages are dynamically typed.
+
+Discuss in favor or against the above statement. Provide enough details and examples to support your arguments.
+
+
+This statement is false, C is example of a static language that is weakly typed. 
+In C you can do things like this:
+
+    int a = 1;
+    void* p = &a;
+    int *q = p;
+
+This is perfectly valid C code, and it will compile and run. The compiler will not complain about the type mismatch.
+
+This disproves the statement that all weakly typed languages are dynamically typed.
+
+
+

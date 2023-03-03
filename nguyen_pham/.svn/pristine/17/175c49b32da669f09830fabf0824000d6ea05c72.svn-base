@@ -1,0 +1,12 @@
+What are the characteristics that a language should have in order for it to be a good choice to serve as a host for creating internal DSLs? Mention a few languages that meet those expectations.
+
+
+
+For a language to be a good choice for creating internal DSLs is that it has to be able to make the language fluent and expressive.
+They should have low ceremony, meaning there should be low noise in the language such as unnecessary keywords and symbols.
+
+
+Languages that are good examples include Groovy, Ruby, and Python. 
+
+Total[10]: -5
+covers one part, but there is more that is necessary.

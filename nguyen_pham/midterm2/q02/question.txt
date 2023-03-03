@@ -1,0 +1,8 @@
+Compare the way JavaScript implements inheritance compared to how languages like Java, C#, and C++ implement it.
+
+JavaScript is a prototypal language, meaning that objects inherit directly from other objects. 
+
+JavaScript objects have a link to a prototype object. When an object gets a request for a property that it does not have, its prototype will be searched for the property, then the prototype's prototype, and so on until the property is found or we reach an object with null as its prototype.
+
+Java, C# and C++ is statically-typed languages that the inheritance is base on class inheritance. Classes inherit from classes and create subclass relationships. Instances are typically instantiated via constructor functions with the `new` keyword.
+

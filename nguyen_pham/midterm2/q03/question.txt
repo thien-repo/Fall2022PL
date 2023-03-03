@@ -1,0 +1,14 @@
+What critical feature of a language or a library makes infinite  sequences possible? Give examples where you used infinite sequences in this class.
+
+Most functional languages which evaluate lazily can simulate the processing of infinite series. Some of the languages that support functional programming is Erlang, Haskell, F#, Clojure, Java, and C#. 
+
+In our assign1 we used infinite sequence to generate the Fibonacci sequence.
+ 
+ public static boolean isPerfectFunctional(int number) {
+    return IntStream
+        .rangeClosed(1, number)
+        .filter(factor -> number % factor == 0) 
+        .sum() == number * 2;
+  }
+
+Under the hood the IntStream.rangeClosed(1, number) is an infinite sequence that has been closed at the number. The filter method is a lazy method that will only evaluate the next element in the sequence when it is needed. The sum method is a terminal method that will evaluate the entire sequence and return the sum of the elements in the sequence.

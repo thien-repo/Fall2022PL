@@ -1,0 +1,6 @@
+What concept is common between functional programming and function evaluation using applicative order? Discuss.
+
+both functional programming and applicative order result in the same output.
+
+Total [10]: -8
+Applicative order will not result in the same output as that depends on what the overall program or a function does.

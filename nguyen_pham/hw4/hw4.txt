@@ -1,0 +1,38 @@
+HW4: Due 11:59PM CT December 9
+
+***Please review the top part of ../hw1/hw1.txt***
+
+**There will be no reviews for this Homework**
+
+Feel free to give answers collectively, and also if you want to, you can call 
+out something specific to yourself different from your pair.
+
+(a) What languages did you use in this course? 
+
+We used Go, Java, Python, F#, Lisp, Scala, Groovy, C# and JavaScript.
+
+
+(b) Which one of those you used for the first time?
+
+We used F#, Lisp, Scala, Groovy and Java for the first time this semester.
+Although with Java for Thien, he's read and seen alot of it's code but never actually written in it before. 
+
+(c) What are your impressions about all the languages that you used (compare
+and contrast in your view)?
+
+Some of the language we used were very similar to each other, like Java and C#. Lisp and F# were completely new to us and the syntax was completely different from most of the language we know before coming to this class. 
+
+When writing functional programming, languages that automatically support it makes it way easier to write code . For example Scala and F# are very similar to each other and they both support functional programming. However, Go does not support functional programming and we have to use external library to do so.
+
+One thing that we did not like so much about some of the languages was the amount of setup and configuration that was required to get started with them. For example, Java and Lisp required a lot of time to set up the environment and get everything working properly. 
+
+(d) What did you learn mostly in this course (I'm interested in hearing
+your views, things you realized, things you found interesting, things
+you did not like so much about any particular language, etc.)?
+
+In this course, I learned a lot about functional programming and how it's different from object-oriented programming. I also learned a lot about the different languages and how they are used in the real world. I also learned a lot about how to set up the environment for different languages and how to use them. 
+
+Overall, We found the course to be very informative and interesting. We gained a lot of valuable knowledge about different programming languages and how they can be used in different contexts. We also enjoyed learning about functional programming and how it can be used to write concise and elegant code.
+
+
+Total [10]: 7 [Not enough depth and insights]

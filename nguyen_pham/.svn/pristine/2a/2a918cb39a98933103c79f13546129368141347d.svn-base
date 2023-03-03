@@ -1,0 +1,19 @@
+Write a function that takes a string as argument and returns the first letter that is repeated. If no letter is repeated, then the result should be an empty string "". Consider space to be part of the string as well.
+
+For example, in the string "hello there" the first letter that is repeated is "h" even though "l" is repeated as well.
+
+Use no explicit mutability in the function or any code you write for this problem.
+
+Write unit tests to call the function using the following sample strings and verify the result for each string is the value that should be expected:
+hello there
+hello okay
+hello elmo
+hello
+hello sam
+gopher
+and this oy
+
+Save your code with proper extension for the language you use and provide a build file to compile (if compilation is necessary) and run the tests.
+
+Total [10]: -5
+Expected results in the tests are incorrect.

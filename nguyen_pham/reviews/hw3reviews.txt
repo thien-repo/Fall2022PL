@@ -1,0 +1,48 @@
+[Reviewed 12/01/22 04:53 AM MST]
+synopsis: let's simplify and observe
+
+details: 
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 11/30/22 05:04 AM MST]
+synopsis: let's strengthen the example
+
+details: 
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 11/29/22 07:56 AM MST]
+synopsis: let's move forward
+
+details: 
+
+1.
+
+Good
+
+Let's move forward to 2.
+
+------------------------------------------------------------------------------
+[Reviewed 11/28/22 06:43 AM MST]
+synopsis: let's clarify
+
+details: 
+
+"depending on the type of object that invokes the method"
+
+In the following code
+
+class Person {
+  ...walkWith(Pet pet) {
+    pet.play();
+  }
+}
+
+The type of the object invoking the method is Person. Are we saying the play that is called is based on the type of Person?
+
+"dispatched based on more than one argument type." How is this related to polymorphism? Does polymorphism based on one argument type? Also, is the dispatching based only on argument types. Are more than one arguments necessary?
+
+------------------------------------------------------------------------------

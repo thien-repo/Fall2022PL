@@ -1,0 +1,16 @@
+Suppose a compiler sees the following code
+
+const sum = 4 + 7
+
+and replaces it with
+
+const sum = 11
+
+What's that feature called and what are the benefits of that feature?
+
+The feature is called applicative order. 
+
+Some benefit of applicative order is that it's efficient and it can help remove duplicate computations.
+
+Total [10]: -10
+Referential transparency

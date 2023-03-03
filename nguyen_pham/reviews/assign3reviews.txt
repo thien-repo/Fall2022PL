@@ -1,0 +1,176 @@
+[Reviewed 11/02/22 10:31 AM CET]
+synopsis: you're done
+
+details: 
+
+yay
+
+------------------------------------------------------------------------------
+[Reviewed 11/01/22 12:03 PM CET]
+synopsis: let's reduce code
+
+details: 
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 10/31/22 11:25 AM MDT]
+synopsis: let's use property missing
+
+details: 
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 10/30/22 19:11 PM MDT]
+synopsis: let's take the next step
+
+details: 
+
+let's take the next step.
+
+------------------------------------------------------------------------------
+[Reviewed 10/30/22 05:13 AM EDT]
+synopsis~: let's remove an unnecessary syntax at this stage
+
+details: 
+
+At this stage we don't need {}, let us remove it and review.
+
+------------------------------------------------------------------------------
+[Reviewed 10/29/22 12:11 PM EDT]
+synopsis: let's reduce code
+
+details: 
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 10/29/22 06:54 AM EDT]
+synopsis: let us get the build working
+
+details: 
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 10/28/22 11:30 AM CEST]
+synopsis: let's check the build and move forward to the first step
+
+details: 
+
+Scala:
+
+done
+
+Groovy:
+
+Let's check the build. Then move on to the first test after the canary test.
+
+------------------------------------------------------------------------------
+[Reviewed 10/28/22 00:22 AM EEST]
+synopsis: a little change to make more fluent
+
+details: 
+
+Let us get rid of (). Please see suggestions in files.
+
+We can also start on the next language.
+
+------------------------------------------------------------------------------
+[Reviewed 10/27/22 06:58 AM EEST]
+synopsis: let's jump ahead
+
+details: 
+
+We have some fundamental in place. Let us move ahead, one test per step, create tests for the remaining steps of the DSL.
+
+------------------------------------------------------------------------------
+[Reviewed 10/27/22 05:38 AM EEST]
+synopsis~: let's reduce noise
+
+details: 
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 10/26/22 21:41 PM EEST]
+synopsis~:  feedback notes from previous review still in files
+
+details: 
+
+Feedback from previous review are still in the files. Please address, remove those feedback notes from the files. After that, please update the reviews request file for a quick review.
+
+------------------------------------------------------------------------------
+[Reviewed 10/26/22 18:23 PM EEST]
+synopsis: refactored
+
+details: 
+
+Please see suggestions in files.
+
+Let's move forward to the next test.
+
+------------------------------------------------------------------------------
+[Reviewed 10/26/22 07:13 AM EEST]
+synopsis~: we need to connect the steps
+
+details: 
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 10/25/22 19:58 PM EEST]
+synopsis: let's move to the next step
+
+details: 
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 10/25/22 05:25 AM EEST]
+synopsis~: let's make the DSL fluent
+
+details: 
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 10/24/22 22:00 PM EEST]
+synopsis: let's reduce code
+
+details: 
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 10/24/22 12:04 PM CEST]
+synopsis~: too much code
+
+details: 
+
+Too much code.
+
+Just one test, for the first line of the DSL. One step at a time.
+Let's create pizza.
+
+------------------------------------------------------------------------------
+[Reviewed 10/23/22 06:48 AM MDT]
+synopsis~: let's move past the canary test
+
+details: 
+
+Let's move past the canary test.
+
+------------------------------------------------------------------------------
+[Reviewed 10/22/22 21:36 PM MDT]
+synopsis: language choices
+
+details: 
+
+The team has selected these languages (may be changed later if the team desires):
+
+✓Scala
+-Groovy
+
+------------------------------------------------------------------------------

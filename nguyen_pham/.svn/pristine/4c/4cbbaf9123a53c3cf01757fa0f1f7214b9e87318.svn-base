@@ -1,0 +1,1 @@
+javac FactorialsList.java && java FactorialsList

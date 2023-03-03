@@ -1,0 +1,6 @@
+In a language of your choice, but not the ones you used in assign4, implement the problem given in assign4. No need to write tests. Provide a run.sh file to easily run the program. Use appropriate file names and extensions. Keep the logic separate from the code that runs it. No mutating once a variable is initialized. No recursion. The language you choose may be statically typed or dynamically typed.
+
+Languages you used in assign4: C# and JavaScript
+
+
+

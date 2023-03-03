@@ -1,0 +1,32 @@
+What's a tuple and what's special about them? 
+
+Where would we use them?
+
+Give a few examples of usage of tuples from two languages that we covered in 
+this course (give code in separate files with proper extensions).
+
+
+
+We would use them when we want to make sure that the data in a list doesn't change.
+
+
+Give a few examples of usage of tuples from two languages that we covered in 
+this course (give code in separate files with proper extensions).
+
+In our assign1 python we used tuples to store data of the test cases.
+We didn't want the data to be changed by the test cases so we used tuples to store the data making it immutable. 
+Testing the code was also easier because we could just compare the tuples to see if the code was working correctly,
+and we didn't have to worry about the data being changed by the test cases.
+
+
+
+In our assign4 c# we used tuples to store the data of two different types 
+the first being the Result and the second being the attempt.
+These two values should not be changed once they are set so we used tuples to store them in a single variable.
+
+Its a great use for when we have a set of data that we don't want to change, such as when we run things in parallel.
+We can use tuples to store the data and then pass it to the threads so that the data is not changed by the threads.
+
+
+Total[10]: -2
+What are tuples?

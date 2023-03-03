@@ -1,0 +1,2 @@
+cd Divisors 
+dotnet run

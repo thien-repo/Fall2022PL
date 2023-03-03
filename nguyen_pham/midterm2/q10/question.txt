@@ -1,0 +1,8 @@
+Functional programming languages insist on pure functions, no-side effects, and immutability. Why are those so critical?
+
+Pure functions are critical because they are small, precise, simple and straightforward to reuse. A pure fuction guarantees that they will not modify anything outside their body. There is no-side effects and it will always yield the same result for the same input. 
+
+Immutability protect functions to have any side-effects such as accessing elements and updating them which might yield different result for the same given input. Immutability also makes multi-threaded computation safer, it makes distributed computation faster and it forces a single source of truth.
+
+Total[10]: -5
+Lazy evaluation, parallel evaluation,...

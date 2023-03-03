@@ -1,0 +1,13 @@
+Statically Typed Language:
+The factors of a number are all the numbers that can fully divide the given number.
+For example, 1, 2, 4, and 8 are factors of 8. Given a list of numbers,
+for example [2, 5, 7, 8, 12, 18, 15], write a function that takes the list as its
+parameter and returns a list of factors for all numbers in the given list.
+The result is a union of the factors for all the numbers in the parameter list.
+For example, if the input list is [2, 6], the result would be [1, 2, 3, 6].
+Write your code in a statically typed language, honor total immutability, and do not use recursion.
+Keep the code highly concise and in a separate file with proper extension.
+Provide a build facility to easily run the code.
+
+Total[10]: -1
+Use of var in the foreach, can be functional style to avoid the mutable variable.
